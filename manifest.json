@@ -1,0 +1,27 @@
+{
+    "name" : "jarvis",
+    "host" : {
+      "app" : "XD",
+      "minVersion" : "21.0"
+    },
+    "id" : "f89ae3b8",
+    "icons" : [ {
+      "path" : "images/icon@1x.png",
+      "width" : 24,
+      "height" : 24
+    }, {
+      "path" : "images/icon@2x.png",
+      "width" : 48,
+      "height" : 48
+    } ],
+    "uiEntryPoints" : [ {
+      "type" : "menu",
+      "label":"Convert to TS",
+      "commandId" : "createRectangle"
+    },{
+      "type" : "menu",
+      "label":"Convert to JSON",
+      "commandId" : "createEllipse"
+    } ],
+    "version" : "0.0.1"
+  }

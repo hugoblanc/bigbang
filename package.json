@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@adobexd/typings": "https://github.com/AdobeXD/typings",
+    "@types/node": "^14.11.8"
+  }
+}
